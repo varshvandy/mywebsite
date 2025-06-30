@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Order - Gourmet Delight</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <h1>Order Your Food</h1>
+    </header>
+
+    <main>
+        <section class="order-form">
+            <h2>Fill in your order details</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="table">Table Number:</label>
+                <input type="number" id="table" name="table" min="1" required>
+
+                <!-- VEG ITEMS -->
+                <fieldset>
+                    <legend>Veg Items</legend>
+                    <label><input type="checkbox" name="items" value="Paneer Butter Masala"> Paneer Butter Masala</label>
+                    <label><input type="checkbox" name="items" value="Veg Biryani"> Veg Biryani</label>
+                    <label><input type="checkbox" name="items" value="Palak Paneer"> Palak Paneer</label>
+                    <label><input type="checkbox" name="items" value="Chana Masala"> Chana Masala</label>
+                    <label><input type="checkbox" name="items" value="Aloo Gobi"> Aloo Gobi</label>
+                </fieldset>
+
+                <!-- NON-VEG ITEMS -->
+                <fieldset>
+                    <legend>Non-Veg Items</legend>
+                    <label><input type="checkbox" name="items" value="Chicken Curry"> Chicken Curry</label>
+                    <label><input type="checkbox" name="items" value="Mutton Biryani"> Mutton Biryani</label>
+                    <label><input type="checkbox" name="items" value="Butter Chicken"> Butter Chicken</label>
+                    <label><input type="checkbox" name="items" value="Fish Fry"> Fish Fry</label>
+                    <label><input type="checkbox" name="items" value="Prawn Masala"> Prawn Masala</label>
+                </fieldset>
+
+                <!-- DESSERTS -->
+                <fieldset>
+                    <legend>Desserts</legend>
+                    <label><input type="checkbox" name="items" value="Gulab Jamun"> Gulab Jamun</label>
+                    <label><input type="checkbox" name="items" value="Rasgulla"> Rasgulla</label>
+                    <label><input type="checkbox" name="items" value="Brownie"> Brownie</label>
+                    <label><input type="checkbox" name="items" value="Ice Cream"> Ice Cream</label>
+                    <label><input type="checkbox" name="items" value="Kheer"> Kheer</label>
+                </fieldset>
+
+                <!-- MOJITOS -->
+                <fieldset>
+                    <legend>Mojitos</legend>
+                    <label><input type="checkbox" name="items" value="Classic Mojito"> Classic Mojito</label>
+                    <label><input type="checkbox" name="items" value="Strawberry Mojito"> Strawberry Mojito</label>
+                    <label><input type="checkbox" name="items" value="Lime Mojito"> Lime Mojito</label>
+                    <label><input type="checkbox" name="items" value="Mint Mojito"> Mint Mojito</label>
+                    <label><input type="checkbox" name="items" value="Orange Mojito"> Orange Mojito</label>
+                </fieldset>
+
+                <!-- FRESH JUICES -->
+                <fieldset>
+                    <legend>Fresh Juices</legend>
+                    <label><input type="checkbox" name="items" value="Orange Juice"> Orange Juice</label>
+                    <label><input type="checkbox" name="items" value="Watermelon Juice"> Watermelon Juice</label>
+                    <label><input type="checkbox" name="items" value="Mango Juice"> Mango Juice</label>
+                    <label><input type="checkbox" name="items" value="Pineapple Juice"> Pineapple Juice</label>
+                    <label><input type="checkbox" name="items" value="Pomegranate Juice"> Pomegranate Juice</label>
+                </fieldset>
+
+                <label for="quantity">Total Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gourmet Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>

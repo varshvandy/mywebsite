@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf3;
+    color: #333;
+}
+
+header {
+    background-color: #8b3e2f;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.order-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+    color: #8b3e2f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #8b3e2f;
+    padding: 0 10px;
+}
+
+fieldset label {
+    display: block;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.order-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #8b3e2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: #6f2c20;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    margin-top: 40px;
+}
